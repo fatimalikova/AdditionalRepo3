@@ -36,15 +36,25 @@ namespace Additional3.Models
             Console.WriteLine($"Name: {Name}, ID: {Id}");
         }
 
-        public static string GetAllStudents()
+        public void GetAllStudents()
         {
-            StringBuilder sb = new StringBuilder();
-
             foreach (var s in studentsList)
-                sb.AppendLine(s.Name);
-
-            return sb.ToString();
+            {
+                Console.WriteLine($"Name: {s.Name}, ID: {s.Id}");
+            }
         }
 
+        public void Remove(List<Student> students)
+        {
+            if (students == null || students.Count == 0)
+            {
+                throw new ArgumentException("Student list cannot be null or empty", nameof(students));
+            }
+            foreach (var student in students)
+            {
+                studentsList.Remove(student);
+            }
+            Console.WriteLine("Remove is Succesfully");
+        }
     }
 }
