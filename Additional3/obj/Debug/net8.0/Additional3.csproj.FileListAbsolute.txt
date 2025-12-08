@@ -1,0 +1,14 @@
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\Additional3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\Additional3.AssemblyInfoInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\Additional3.AssemblyInfo.cs
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\Additional3.csproj.CoreCompileInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\bin\Debug\net8.0\Additional3.exe
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\bin\Debug\net8.0\Additional3.deps.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\bin\Debug\net8.0\Additional3.runtimeconfig.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\bin\Debug\net8.0\Additional3.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\bin\Debug\net8.0\Additional3.pdb
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\Additional3.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\refint\Additional3.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\Additional3.pdb
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\Additional3.genruntimeconfig.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\Additional3\obj\Debug\net8.0\ref\Additional3.dll
