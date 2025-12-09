@@ -25,18 +25,19 @@ namespace Additional3.Models
 
         private static List<Teacher> teachersList = new List<Teacher>();
 
-        public static List<Teacher> Add(Teacher teacher)
-        {
-            if (teacher == null)
-            {
-                throw new ArgumentNullException(nameof(teacher), "Teacher cannot be null");
-            }
+        //public static List<Teacher> Add(Teacher teacher)
+        //{
+        //    if (teacher == null)
+        //    {
+        //        throw new ArgumentNullException(nameof(teacher), "Teacher cannot be null");
+        //    }
 
-            teachersList.Add(teacher);
-            return teachersList;
-        }
+        //    teachersList.Add(teacher);
+        //    return teachersList;
+        //}
 
-        public static string GetAllStudents()
+
+        public static string GetAllTeachers()
         {
             StringBuilder sb = new StringBuilder();
 

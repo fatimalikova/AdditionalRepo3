@@ -21,14 +21,26 @@ namespace Additional3.Models
         }
 
         private static List<Student> studentsList = new List<Student>();
-        public static List<Student> Add(Student student)
+        //public static List<Student> Add(Student student)
+        //{
+        //    if (student == null)
+        //    {
+        //        throw new ArgumentNullException(nameof(student), "Student cannot be null");
+        //    }
+        //    studentsList.Add(student);
+        //    return studentsList;
+        //}
+
+        public void AddStudent(Student student)
         {
-            if (student == null)
+            if(student != null)
             {
-                throw new ArgumentNullException(nameof(student), "Student cannot be null");
+                foreach (var item in studentsList)
+                {
+                    studentsList.Add(item);
+                }
             }
-            studentsList.Add(student);
-            return studentsList;
+            Console.WriteLine("Student is not found");
         }
 
         public void ShowAll()
@@ -44,17 +56,28 @@ namespace Additional3.Models
             }
         }
 
-        public void Remove(List<Student> students)
+        //public void Remove(List<Student> students)
+        //{
+        //    if (students == null || students.Count == 0)
+        //    {
+        //        throw new ArgumentException("Student list cannot be null or empty", nameof(students));
+        //    }
+        //    foreach (var student in students)
+        //    {
+        //        studentsList.Remove(student);
+        //    }
+        //    Console.WriteLine("Remove is Succesfully");
+        //}
+
+
+        public void RemoveStudent(int id)
         {
-            if (students == null || students.Count == 0)
+            foreach(var student in studentsList)
             {
-                throw new ArgumentException("Student list cannot be null or empty", nameof(students));
-            }
-            foreach (var student in students)
-            {
+                student.Id = id;
                 studentsList.Remove(student);
             }
-            Console.WriteLine("Remove is Succesfully");
+
         }
     }
 }
