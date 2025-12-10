@@ -11,7 +11,8 @@ namespace PracticeList
             //myclass.Id = 10; vere bilmersen çünkü init ile tanımlandı
 
             Type type = typeof(Myclass);
-
+            Type type1= typeof(MyEnum);
+            Console.WriteLine(type1.IsEnum);
             //Console.WriteLine(type.Name);
             //Console.WriteLine(type.FullName);
             //Console.WriteLine(type.IsValueType);
@@ -36,6 +37,7 @@ namespace PracticeList
             Console.WriteLine(instance.Id);
 
 
+
         }
 
 
@@ -45,6 +47,12 @@ namespace PracticeList
     {
         public int Id { get; init; } = 12;
         public string Name { get; init; }
+
+        public Myclass(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
         public Myclass()
         {
             
@@ -54,5 +62,11 @@ namespace PracticeList
         {
             Console.WriteLine(Id);
         }
+    }
+    enum MyEnum
+    {
+        First,
+        Second,
+        Third
     }
 }
