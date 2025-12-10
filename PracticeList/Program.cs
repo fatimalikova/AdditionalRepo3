@@ -1,10 +1,58 @@
-﻿namespace PracticeList
+﻿using System.Reflection;
+
+namespace PracticeList
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            //Myclass myclass = new Myclass() { Id = 5 };
+            //Console.WriteLine(myclass.Id);
+            //myclass.Id = 10; vere bilmersen çünkü init ile tanımlandı
+
+            Type type = typeof(Myclass);
+
+            //Console.WriteLine(type.Name);
+            //Console.WriteLine(type.FullName);
+            //Console.WriteLine(type.IsValueType);
+            //Console.WriteLine(type.IsEnum);
+            //Console.WriteLine(type.IsGenericType);
+            //Console.WriteLine(type.IsAbstract);
+            //Console.WriteLine(type.IsSealed);
+            //Console.WriteLine(type.IsClass);
+
+
+            //MethodInfo methodinfo = type.GetMethod("Info");
+            //ParameterInfo[] info = methodinfo.GetParameters();
+            //Console.WriteLine(info.Length);
+            //foreach (var item in info)
+            //{
+            //    Console.WriteLine("Parameter Name: " + item.Name);
+            //    Console.WriteLine("Parameter Type: " + item.ParameterType);
+            //}
+
+            var instance = Activator.CreateInstance(type, 23, "Leila") as Myclass;
+            Console.WriteLine(instance.Name);
+            Console.WriteLine(instance.Id);
+
+
+        }
+
+
+
+    }
+    class Myclass
+    {
+        public int Id { get; init; } = 12;
+        public string Name { get; init; }
+        public Myclass()
+        {
             
+        }
+
+        public void Info(int id, string name)
+        {
+            Console.WriteLine(Id);
         }
     }
 }

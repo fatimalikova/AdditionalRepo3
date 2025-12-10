@@ -1,0 +1,15 @@
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\bin\Debug\net8.0\PracticeList.exe
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\bin\Debug\net8.0\PracticeList.deps.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\bin\Debug\net8.0\PracticeList.runtimeconfig.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\bin\Debug\net8.0\PracticeList.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\bin\Debug\net8.0\PracticeList.pdb
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.AssemblyInfoInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.AssemblyInfo.cs
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.csproj.CoreCompileInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.sourcelink.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\refint\PracticeList.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.pdb
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\PracticeList.genruntimeconfig.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\PracticeList\obj\Debug\net8.0\ref\PracticeList.dll
