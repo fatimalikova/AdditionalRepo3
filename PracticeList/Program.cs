@@ -1,6 +1,8 @@
 ﻿using PracticeList.Class;
 using PracticeList.Interface;
+using System.ComponentModel.DataAnnotations;
 using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
 
 namespace PracticeList
 {
@@ -39,19 +41,53 @@ namespace PracticeList
             //}
 
             var instance = Activator.CreateInstance(type, 23, "Leila") as Myclass;
-            //Console.WriteLine(instance.Name);
+            Console.WriteLine(instance.Name);
+            Console.WriteLine(instance.Id);
+
+
+            //MethodInfo method = type.GetMethod("Info");
+            //method.Invoke(instance, [ 5, "Test" ]);
+
+            //type.GetField("Id", BindingFlags.Public | BindingFlags.Instance).SetValue(instance, 45);
             //Console.WriteLine(instance.Id);
 
 
-            MethodInfo method = type.GetMethod("Info");
-            method.Invoke(instance, [ 5, "Test" ]);
+            
 
+        }
+        public void Validate(object obj)
+        {
+            Type type = obj.GetType();
+            PropertyInfo[] properties = type.GetProperties();
+            foreach (var property in properties)
+            {
+                var requiredAttribute = property.GetCustomAttribute<RequiredAttribute>();
+                if (requiredAttribute != null)
+                {
+                    var value = property.GetValue(obj);
+                    if (value == null || (value is string str && string.IsNullOrWhiteSpace(str)))
+                    {
+                        Console.WriteLine($"{property.Name} is required.");
+                    }
+                }
+                var maxLengthAttribute = property.GetCustomAttribute<MaxLengthAttribute>();
+                if (maxLengthAttribute != null)
+                {
+                    var value = property.GetValue(obj) as string;
+                    if (value != null && value.Length > maxLengthAttribute.Length)
+                    {
+                        Console.WriteLine($"{property.Name} exceeds maximum length of {maxLengthAttribute.Length}.");
+                    }
+                }
+            }
         }
 
     }
     class Myclass
     {
-        public int Id { get; init; } = 12;
+        public int Id;
+        [Required]
+        [MaxLength(10)]
         public string Name { get; init; }
 
         public Myclass(int id, string name)
@@ -75,5 +111,14 @@ namespace PracticeList
         First,
         Second,
         Third
+    }
+
+    class MaxLengthAttribute : Attribute
+    {
+        public int Length { get; }
+        public MaxLengthAttribute(int length)
+        {
+            Length = length;
+        }
     }
 }
