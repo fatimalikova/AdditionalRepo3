@@ -39,14 +39,14 @@ namespace PracticeList
             //}
 
             var instance = Activator.CreateInstance(type, 23, "Leila") as Myclass;
-            Console.WriteLine(instance.Name);
-            Console.WriteLine(instance.Id);
+            //Console.WriteLine(instance.Name);
+            //Console.WriteLine(instance.Id);
 
 
+            MethodInfo method = type.GetMethod("Info");
+            method.Invoke(instance, [ 5, "Test" ]);
 
         }
-
-
 
     }
     class Myclass
@@ -67,6 +67,7 @@ namespace PracticeList
         public void Info(int id, string name)
         {
             Console.WriteLine(Id);
+            Console.WriteLine(Name);
         }
     }
     enum MyEnum
