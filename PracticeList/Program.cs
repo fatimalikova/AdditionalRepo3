@@ -55,8 +55,15 @@ namespace PracticeList
             //Console.WriteLine(instance.Id);
 
 
-            Fatima fatima = new Fatima(1, "Fatimmmmmmmmmmmma", "Mammadova");
-            Validate(fatima);
+            //Fatima fatima = new Fatima(1, "Fatima", "Mammadova");
+            //Validate(fatima);
+
+            Myclass myclass = new Myclass();
+            myclass.Id = Console.ReadLine() != null ? Convert.ToInt32(Console.ReadLine()) : 0;
+            myclass.Name = (Name)Enum.Parse(typeof(Name), Console.ReadLine());
+            myclass.Info(myclass.Id, myclass.Name);
+            Console.ReadLine();
+
         }
         public static void Validate(object obj)
         {
@@ -68,7 +75,7 @@ namespace PracticeList
                 var value = property.GetValue(obj) as string;
                 if (att != null && value != null && value.Length > att.Length)
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"{property.Name} maksimum uzunlugu kecir");
                     Console.ResetColor();
                 }
@@ -111,15 +118,29 @@ namespace PracticeList
         public int Id;
         [Required]
         [MaxLength(10)]
-        public string Name { get; init; }
-
-        public Myclass(int id, string name)
+        private readonly Name _Name;
+        public Name Name
+        {
+            get { return _Name; }
+            set
+            {
+                if(!Enum.IsDefined(typeof(Name), value))
+                {
+                    throw new ArgumentException("Invalid Name value");
+                }
+            }
+        }
+        public Myclass()
+        {
+            
+        }
+        public Myclass(int id, Name name)
         {
             Id = id;
             Name = name;
         }
        
-        public void Info(int id, string name)
+        public void Info(int id, Name name)
         {
             Console.WriteLine(Id);
             Console.WriteLine(Name);
@@ -130,6 +151,13 @@ namespace PracticeList
         First,
         Second,
         Third
+    }
+    enum Name
+    {
+        Fatima,
+        Leila,
+        Aysel,
+        Jala
     }
 
     class MaxLengthAttribute : Attribute
