@@ -118,11 +118,7 @@ namespace PracticeList
             Id = id;
             Name = name;
         }
-        public Myclass()
-        {
-            
-        }
-
+       
         public void Info(int id, string name)
         {
             Console.WriteLine(Id);
