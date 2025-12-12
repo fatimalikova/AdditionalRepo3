@@ -55,14 +55,14 @@ namespace PracticeList
             //Console.WriteLine(instance.Id);
 
 
-            //Fatima fatima = new Fatima(1, "Fatima", "Mammadova");
-            //Validate(fatima);
+            Fatima fatima = new Fatima(1, "Fatimaaaaaaaaaa", "Mammadova");
+            Validate(fatima);
 
-            Myclass myclass = new Myclass();
-            myclass.Id = Console.ReadLine() != null ? Convert.ToInt32(Console.ReadLine()) : 0;
-            myclass.Name = (Name)Enum.Parse(typeof(Name), Console.ReadLine());
-            myclass.Info(myclass.Id, myclass.Name);
-            Console.ReadLine();
+            //Myclass myclass = new Myclass();
+            //myclass.Id = Console.ReadLine() != null ? Convert.ToInt32(Console.ReadLine()) : 0;
+            //myclass.Name = (Name)Enum.Parse(typeof(Name), Console.ReadLine());
+            //myclass.Info(myclass.Id, myclass.Name);
+            //Console.ReadLine();
 
         }
         public static void Validate(object obj)
