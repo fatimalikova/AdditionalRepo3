@@ -1,0 +1,15 @@
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\bin\Debug\net8.0\DelegatePractice.exe
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\bin\Debug\net8.0\DelegatePractice.deps.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\bin\Debug\net8.0\DelegatePractice.runtimeconfig.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\bin\Debug\net8.0\DelegatePractice.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\bin\Debug\net8.0\DelegatePractice.pdb
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.AssemblyInfoInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.AssemblyInfo.cs
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.csproj.CoreCompileInputs.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.sourcelink.json
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\refint\DelegatePractice.dll
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.pdb
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\DelegatePractice.genruntimeconfig.cache
+C:\Users\fmeli\OneDrive\Desktop\Code Academy\Additional3\Additional3\DeligatePractice\obj\Debug\net8.0\ref\DelegatePractice.dll

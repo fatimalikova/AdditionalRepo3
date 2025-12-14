@@ -8,7 +8,7 @@ namespace MemoryManagement
         {
            CreateProduct();
            CreateProductAndReturn();
-            GC.Collect();
+           GC.Collect();
            GC.WaitForPendingFinalizers();
         }
 
