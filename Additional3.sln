@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryManagement", "MemoryM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatePractice", "DeligatePractice\DelegatePractice.csproj", "{F1B780EE-1870-4F39-8F92-92100FD7FB23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedList", "SortedList\SortedList.csproj", "{4870CAA1-07AF-4C6F-8239-D1D991C0B035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F1B780EE-1870-4F39-8F92-92100FD7FB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B780EE-1870-4F39-8F92-92100FD7FB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B780EE-1870-4F39-8F92-92100FD7FB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4870CAA1-07AF-4C6F-8239-D1D991C0B035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4870CAA1-07AF-4C6F-8239-D1D991C0B035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4870CAA1-07AF-4C6F-8239-D1D991C0B035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4870CAA1-07AF-4C6F-8239-D1D991C0B035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
