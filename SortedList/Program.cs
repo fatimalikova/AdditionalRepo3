@@ -50,6 +50,7 @@ namespace SortedListApp
             //stack.Push(1);
             //stack.Push(2);
             //stack.Push(3);
+            //Console.WriteLine(stack.Peek());
             //Console.WriteLine("Stack contents:");
             //foreach (var item in stack)
             //{
