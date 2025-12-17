@@ -102,6 +102,7 @@ namespace SortedListApp
             //    Console.WriteLine(item);
             //} 
             #endregion
+
             #region Queue(Generic)
             //Queue<int> queue = new Queue<int>();
             //queue.Enqueue(1);
@@ -119,6 +120,27 @@ namespace SortedListApp
             //foreach (var item in queue)
             //{
             //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region Hashtable
+
+            //Hashtable hashtable = new Hashtable();
+            //hashtable.Add("A", "Apple");
+            //hashtable.Add("B", "Banana");
+            //hashtable.Add("C", "Cherry");
+            //hashtable["D"] = "Date";
+            //Console.WriteLine(hashtable.ContainsKey("B"));
+            //Console.WriteLine("Hashtable contents:");
+            //foreach (DictionaryEntry item in hashtable)
+            //{
+            //    Console.WriteLine($"{item.Key}: {item.Value}");
+            //}
+            //hashtable.Remove("C");
+            //Console.WriteLine("Hashtable contents after removing key 'C':");
+            //foreach (DictionaryEntry item in hashtable)
+            //{
+            //    Console.WriteLine($"{item.Key}: {item.Value}");
             //}
             #endregion
         }
