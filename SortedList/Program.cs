@@ -143,6 +143,21 @@ namespace SortedListApp
             //    Console.WriteLine($"{item.Key}: {item.Value}");
             //}
             #endregion
+
+            #region Hashset
+            HashSet<int> hashSet = new HashSet<int>();
+            hashSet.Add(1);
+            hashSet.Add(2);
+            hashSet.Add(3);
+            hashSet.Add(2); // Duplicate, will not be added
+            Console.WriteLine(hashSet.Contains(2));
+            Console.WriteLine("HashSet contents:");
+            foreach (var item in hashSet)
+            {
+                Console.WriteLine(item);
+            }
+
+            #endregion
         }
     }
 }
