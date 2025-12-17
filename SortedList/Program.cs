@@ -83,7 +83,7 @@ namespace SortedListApp
             //}
             #endregion
 
-            #region Queue(Generic)
+            #region Queue(Non-Generic)
             //Queue queue = new Queue();
             //queue.Enqueue(1);
             //queue.Enqueue(2);
@@ -101,6 +101,25 @@ namespace SortedListApp
             //{
             //    Console.WriteLine(item);
             //} 
+            #endregion
+            #region Queue(Generic)
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //Console.WriteLine(queue.Contains(1));
+            //Console.WriteLine("Queue contents:");
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Console.WriteLine($"Dequeued item: {queue.Dequeue()}");
+            //Console.WriteLine("Queue contents after dequeue:");
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
         }
     }
