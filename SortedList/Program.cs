@@ -160,16 +160,17 @@ namespace SortedListApp
             #endregion
 
             #region Dictionary(Generic)
-            Dictionary<int, string> dictionary = new Dictionary<int, string>();
-            dictionary.Add(1, "One");
-            dictionary.Add(2, "Two");
-            dictionary[3] = "Three";
-            Console.WriteLine(dictionary.ContainsKey(2));
-            Console.WriteLine("Dictionary contents:");
-            foreach (var item in dictionary)
-            {
-                Console.WriteLine($"{item.Key}: {item.Value}");
-            }
+            //Dictionary<int, string> dictionary = new Dictionary<int, string>();
+            //dictionary.Add(1, "One");
+            //dictionary.Add(2, "Two");
+            //dictionary[3] = "Three";
+            //Console.WriteLine(dictionary.Count.ToString());
+            //Console.WriteLine(dictionary.ContainsKey(2));
+            //Console.WriteLine("Dictionary contents:");
+            //foreach (var item in dictionary)
+            //{
+            //    Console.WriteLine($"{item.Key}: {item.Value}");
+            //}
             #endregion
         }
     }
