@@ -145,18 +145,31 @@ namespace SortedListApp
             #endregion
 
             #region Hashset
-            HashSet<int> hashSet = new HashSet<int>();
-            hashSet.Add(1);
-            hashSet.Add(2);
-            hashSet.Add(3);
-            hashSet.Add(2); // Duplicate, will not be added
-            Console.WriteLine(hashSet.Contains(2));
-            Console.WriteLine("HashSet contents:");
-            foreach (var item in hashSet)
-            {
-                Console.WriteLine(item);
-            }
+            //HashSet<int> hashSet = new HashSet<int>();
+            //hashSet.Add(1);
+            //hashSet.Add(2);
+            //hashSet.Add(3);
+            //hashSet.Add(2); // Duplicate, will not be added
+            //Console.WriteLine(hashSet.Contains(2));
+            //Console.WriteLine("HashSet contents:");
+            //foreach (var item in hashSet)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
+            #endregion
+
+            #region Dictionary(Generic)
+            Dictionary<int, string> dictionary = new Dictionary<int, string>();
+            dictionary.Add(1, "One");
+            dictionary.Add(2, "Two");
+            dictionary[3] = "Three";
+            Console.WriteLine(dictionary.ContainsKey(2));
+            Console.WriteLine("Dictionary contents:");
+            foreach (var item in dictionary)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
             #endregion
         }
     }
