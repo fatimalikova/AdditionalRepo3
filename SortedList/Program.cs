@@ -171,6 +171,23 @@ namespace SortedListApp
             //{
             //    Console.WriteLine($"{item.Key}: {item.Value}");
             //}
+
+            Dictionary<int, string> anotherDict = new Dictionary<int, string>()
+            {
+                {4, "Four" },
+                {5, "Five" },
+                {6, "Six" }
+            };
+            //Merging two dictionaries
+            foreach (var item in anotherDict)
+            {
+                anotherDict[item.Key] = item.Value; // This will add or update the value
+            }
+            Console.WriteLine("Merged Dictionary contents:");
+            foreach (var item in anotherDict)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
             #endregion
         }
     }
