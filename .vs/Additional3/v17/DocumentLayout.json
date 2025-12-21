@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\shallowdeepcopy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|solutionrelative:shallowdeepcopy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\shallowdeepcopy\\shallowdeepcopy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|solutionrelative:shallowdeepcopy\\shallowdeepcopy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4870CAA1-07AF-4C6F-8239-D1D991C0B035}|SortedList\\SortedList.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\sortedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4870CAA1-07AF-4C6F-8239-D1D991C0B035}|SortedList\\SortedList.csproj|solutionrelative:sortedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\shallowdeepcopy\\class\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|solutionrelative:shallowdeepcopy\\class\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\shallowdeepcopy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A197E837-4316-4661-8B5F-3EEE14BD99CF}|ShallowDeepCopy\\ShallowDeepCopy.csproj|solutionrelative:shallowdeepcopy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ShallowDeepCopy",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\ShallowDeepCopy.csproj",
+              "RelativeDocumentMoniker": "ShallowDeepCopy\\ShallowDeepCopy.csproj",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\ShallowDeepCopy.csproj",
+              "RelativeToolTip": "ShallowDeepCopy\\ShallowDeepCopy.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-21T17:11:02.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\SortedList\\Program.cs",
               "RelativeDocumentMoniker": "SortedList\\Program.cs",
               "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\SortedList\\Program.cs",
               "RelativeToolTip": "SortedList\\Program.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAswL0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T15:09:05.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\DeligatePractice\\Program.cs",
               "RelativeDocumentMoniker": "DeligatePractice\\Program.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\MemoryManagement\\Program.cs",
               "RelativeDocumentMoniker": "MemoryManagement\\Program.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\Class\\Product.cs",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\Class\\Product.cs",
@@ -83,15 +100,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\Program.cs",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\Program.cs",
               "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\Program.cs",
               "RelativeToolTip": "ShallowDeepCopy\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T16:14:06.333Z"
+              "WhenOpened": "2025-12-13T16:14:06.333Z",
+              "EditorCaption": ""
             }
           ]
         }
