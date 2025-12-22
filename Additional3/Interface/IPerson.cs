@@ -9,5 +9,10 @@ namespace Additional3.Interface
     public interface IPerson
     {
         void ShowAll();
+        void ShowBasicInfo();
+        void ShowContactInfo();
+        void ShowWorkInfo();
+        void ShowEducationInfo();
+
     }
 }
