@@ -79,5 +79,25 @@ namespace Additional3.Models
             }
 
         }
+
+        public void ShowBasicInfo()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ShowContactInfo()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ShowWorkInfo()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ShowEducationInfo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

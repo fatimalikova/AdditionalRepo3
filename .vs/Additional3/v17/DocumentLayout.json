@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\additional3\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|solutionrelative:additional3\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\additional3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|solutionrelative:additional3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\additional3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|solutionrelative:additional3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\additional3\\interface\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|solutionrelative:additional3\\interface\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +55,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Additional3\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Models\\Teacher.cs",
+              "RelativeToolTip": "Additional3\\Models\\Teacher.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T17:42:27.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Additional3\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Models\\Student.cs",
+              "RelativeToolTip": "Additional3\\Models\\Student.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T17:42:17.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Program.cs",
+              "RelativeDocumentMoniker": "Additional3\\Program.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Program.cs",
+              "RelativeToolTip": "Additional3\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T17:42:03.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IPerson.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Interface\\IPerson.cs",
               "RelativeDocumentMoniker": "Additional3\\Interface\\IPerson.cs",
@@ -55,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ShallowDeepCopy.csproj",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\ShallowDeepCopy.csproj",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\ShallowDeepCopy.csproj",
@@ -67,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\SortedList\\Program.cs",
               "RelativeDocumentMoniker": "SortedList\\Program.cs",
@@ -79,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\DeligatePractice\\Program.cs",
               "RelativeDocumentMoniker": "DeligatePractice\\Program.cs",
@@ -87,12 +138,11 @@
               "RelativeToolTip": "DeligatePractice\\Program.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCMAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T16:17:14.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T16:17:14.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\MemoryManagement\\Program.cs",
               "RelativeDocumentMoniker": "MemoryManagement\\Program.cs",
@@ -104,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\Class\\Product.cs",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\Class\\Product.cs",
@@ -116,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\Program.cs",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\Program.cs",
@@ -124,8 +174,7 @@
               "RelativeToolTip": "ShallowDeepCopy\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T16:14:06.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T16:14:06.333Z"
             }
           ]
         }
