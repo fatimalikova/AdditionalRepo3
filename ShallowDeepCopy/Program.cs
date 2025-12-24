@@ -22,6 +22,7 @@ namespace ShallowDeepCopy
             Console.WriteLine(product1.Details.Name);
             Console.WriteLine(product3.Details.Name);
             Console.WriteLine(product4.Details.Name);
+
             Console.WriteLine();
         }
     }

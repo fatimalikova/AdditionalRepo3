@@ -35,6 +35,10 @@
 
             GenericMethod<int, string> genericMethod = (s) => s.ToString() + " Generic Method";
             Console.WriteLine(genericMethod(5));
+            Console.WriteLine(genericMethod(10));
+            Console.WriteLine(genericMethod(20));
+            Console.WriteLine(genericMethod(30));
+             
 
         }
 
