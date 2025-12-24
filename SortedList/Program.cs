@@ -66,21 +66,28 @@ namespace SortedListApp
             #endregion
 
             #region Stack(Non-Generic) LIFO
-            //Stack stack = new Stack(8);
-            //stack.Push(1);
-            //stack.Push(2);
-            //stack.Push(3);
-            //Console.WriteLine("Stack contents:");
-            //foreach (var item in stack)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Console.WriteLine($"Popped item: {stack.Pop()}");
-            //Console.WriteLine("Stack contents after pop:");
-            //foreach (var item in stack)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            Stack stack = new Stack(8);
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+            stack.Push(5);
+            stack.Push(6);
+            stack.Push(7);
+            object obj = null;
+            
+            Console.WriteLine("Stack contents:");
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine($"Popped item: {stack.Pop()}");
+            Console.WriteLine($"Popped item: {stack.Pop()}");
+            Console.WriteLine("Stack contents after 2 pop:");
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item);
+            }
             #endregion
 
             #region Queue(Non-Generic)
