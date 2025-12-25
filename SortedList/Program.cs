@@ -66,28 +66,28 @@ namespace SortedListApp
             #endregion
 
             #region Stack(Non-Generic) LIFO
-            Stack stack = new Stack(8);
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
-            stack.Push(4);
-            stack.Push(5);
-            stack.Push(6);
-            stack.Push(7);
-            object obj = null;
-            
-            Console.WriteLine("Stack contents:");
-            foreach (var item in stack)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine($"Popped item: {stack.Pop()}");
-            Console.WriteLine($"Popped item: {stack.Pop()}");
-            Console.WriteLine("Stack contents after 2 pop:");
-            foreach (var item in stack)
-            {
-                Console.WriteLine(item);
-            }
+            //Stack stack = new Stack(8);
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
+            //stack.Push(5);
+            //stack.Push(6);
+            //stack.Push(7);
+            //object obj = null;
+
+            //Console.WriteLine("Stack contents:");
+            //foreach (var item in stack)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine($"Popped item: {stack.Pop()}");
+            //Console.WriteLine($"Popped item: {stack.Pop()}");
+            //Console.WriteLine("Stack contents after 2 pop:");
+            //foreach (var item in stack)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #region Queue(Non-Generic)
@@ -136,6 +136,9 @@ namespace SortedListApp
             //hashtable.Add("A", "Apple");
             //hashtable.Add("B", "Banana");
             //hashtable.Add("C", "Cherry");
+            //hashtable.Add("A", "Avocado"); // This will throw an exception due to duplicate key
+            //hashtable.Add("B", "Blueberry"); // This will throw an exception due to duplicate key
+            //hashtable.Add("C", "Cranberry"); // This will throw an exception due to duplicate key
             //hashtable["D"] = "Date";
             //Console.WriteLine(hashtable.ContainsKey("B"));
             //Console.WriteLine("Hashtable contents:");
@@ -149,6 +152,7 @@ namespace SortedListApp
             //{
             //    Console.WriteLine($"{item.Key}: {item.Value}");
             //}
+            //hashtable.Remove("A");
             #endregion
 
             #region Hashset
