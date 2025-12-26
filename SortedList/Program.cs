@@ -160,8 +160,11 @@ namespace SortedListApp
             //hashSet.Add(1);
             //hashSet.Add(2);
             //hashSet.Add(3);
+            //hashSet.Add(4);
+            //hashSet.Add(5);
             //hashSet.Add(2); // Duplicate, will not be added
             //Console.WriteLine(hashSet.Contains(2));
+            //Console.WriteLine(hashSet.Contains(4));
             //Console.WriteLine("HashSet contents:");
             //foreach (var item in hashSet)
             //{
