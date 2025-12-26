@@ -8,26 +8,26 @@ namespace SortedListApp
         static void Main(string[] args)
         {
             #region SortedList(Generic)
-            SortedList<int, string> sortedList = new SortedList<int, string>();
-            sortedList.Add(3, "Three");
-            sortedList.Add(1, "One");
-            sortedList.Add(2, "Two");
-            sortedList.Add(5, "Five");
-            sortedList.Add(6, "Six");
-            sortedList.Add(4, "Four");
-            sortedList.Remove(2);
-            Console.WriteLine(sortedList.TryAdd(4, "Four Duplicate"));
-            Console.WriteLine(sortedList.ContainsKey(7));
+            //SortedList<int, string> sortedList = new SortedList<int, string>();
+            //sortedList.Add(3, "Three");
+            //sortedList.Add(1, "One");
+            //sortedList.Add(2, "Two");
+            //sortedList.Add(5, "Five");
+            //sortedList.Add(6, "Six");
+            //sortedList.Add(4, "Four");
+            //sortedList.Remove(2);
+            //Console.WriteLine(sortedList.TryAdd(4, "Four Duplicate"));
+            //Console.WriteLine(sortedList.ContainsKey(7));
 
-            Console.WriteLine("====================================");
-            foreach (var item in sortedList)
-            {
-                Console.WriteLine($"{item.Key}: {item.Value}");
-            }
+            //Console.WriteLine("====================================");
+            //foreach (var item in sortedList)
+            //{
+            //    Console.WriteLine($"{item.Key}: {item.Value}");
+            //}
 
-            Console.WriteLine(sortedList.Remove(3));
-            Console.WriteLine(sortedList.Remove(10));
-            Console.WriteLine(sortedList.Count);
+            //Console.WriteLine(sortedList.Remove(3));
+            //Console.WriteLine(sortedList.Remove(10));
+            //Console.WriteLine(sortedList.Count);
             #endregion
 
             #region SortedList(Non-Generic)

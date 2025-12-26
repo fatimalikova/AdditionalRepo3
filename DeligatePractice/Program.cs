@@ -38,6 +38,7 @@
             Console.WriteLine(genericMethod(10));
             Console.WriteLine(genericMethod(20));
             Console.WriteLine(genericMethod(30));
+
              
 
         }
