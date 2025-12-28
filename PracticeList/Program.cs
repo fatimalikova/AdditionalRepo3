@@ -57,6 +57,8 @@ namespace PracticeList
 
             Fatima fatima = new Fatima(1, "Fatimaaaaaaaaaa", "Mammadova");
             Validate(fatima);
+            Fatima fatima1 = new Fatima(2, "Leila", "Aliyeva");
+            Validate(fatima1);
 
             //Myclass myclass = new Myclass();
             //myclass.Id = Console.ReadLine() != null ? Convert.ToInt32(Console.ReadLine()) : 0;

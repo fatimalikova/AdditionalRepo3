@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25075688-6138-4F2A-AC2E-968EAC829B5C}|PracticeList\\PracticeList.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\practicelist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25075688-6138-4F2A-AC2E-968EAC829B5C}|PracticeList\\PracticeList.csproj|solutionrelative:practicelist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\additional3\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88ED0F32-62E3-4AC5-9FCD-0FFF5742C17F}|Additional3\\Additional3.csproj|solutionrelative:additional3\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\PracticeList\\Program.cs",
+              "RelativeDocumentMoniker": "PracticeList\\Program.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\PracticeList\\Program.cs",
+              "RelativeToolTip": "PracticeList\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:57:13.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "Additional3\\Models\\Teacher.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Program.cs",
               "RelativeDocumentMoniker": "Additional3\\Program.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IPerson.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Interface\\IPerson.cs",
               "RelativeDocumentMoniker": "Additional3\\Interface\\IPerson.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ShallowDeepCopy.csproj",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\ShallowDeepCopy.csproj",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\ShallowDeepCopy.csproj",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\SortedList\\Program.cs",
               "RelativeDocumentMoniker": "SortedList\\Program.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\DeligatePractice\\Program.cs",
               "RelativeDocumentMoniker": "DeligatePractice\\Program.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\MemoryManagement\\Program.cs",
               "RelativeDocumentMoniker": "MemoryManagement\\Program.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\Program.cs",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\Program.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\Additional3\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Additional3\\Models\\Student.cs",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\ShallowDeepCopy\\Class\\Product.cs",
               "RelativeDocumentMoniker": "ShallowDeepCopy\\Class\\Product.cs",
