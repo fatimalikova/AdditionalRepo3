@@ -13,7 +13,6 @@ namespace Additional3.Models
         public string Name { get; set; }
         private static int teacherCount = 0;
         public int Id { get; set; }
-        public string Surname { get; set; } 
         public static List<Teacher> TeachersList
         {
             get { return teachersList; }
