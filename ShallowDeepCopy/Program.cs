@@ -11,23 +11,13 @@ namespace ShallowDeepCopy
 
             Product product2 = product1.ShallowCopy();
             product2.Details.Name = "Smartphone";
-            Console.WriteLine(product1.Details.Name);
-            Console.WriteLine(product2.Details.Name);
+           
 
             //Product product2 = product1.ShallowCopy();
 
             //product2.Details.Name = "Smartphone";
             //Console.WriteLine(product1.Details.Name);
 
-            Product product3 = product1.DeepCopy();
-            product3.Details.Name = "Tablet";
-            Console.WriteLine(product1.Details.Name);
-
-            Product product4 = product1;
-            product4.Details.Name = "Monitor";
-            Console.WriteLine(product1.Details.Name);
-            Console.WriteLine(product3.Details.Name);
-            Console.WriteLine(product4.Details.Name);
 
             Console.WriteLine();
         }
