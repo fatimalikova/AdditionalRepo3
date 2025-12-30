@@ -11,9 +11,9 @@ namespace PracticeList
     {
         static void Main(string[] args)
         {
-            //IHumanResources humanResources = new PersonService();
-            //humanResources.Add(new Person { Id = 1, Name = "Leila" });
-            //humanResources.GetAll();
+            IHumanResources humanResources = new PersonService();
+            humanResources.Add(new Person { Id = 1, Name = "Leila" });
+            humanResources.GetAll();
 
             //Myclass myclass = new Myclass() { Id = 5 };
             //Console.WriteLine(myclass.Id);
