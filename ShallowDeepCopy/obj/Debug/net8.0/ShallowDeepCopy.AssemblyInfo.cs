@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShallowDeepCopy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dad84cb991dca193b2fde64b5eeb97c3cc2b1573")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bbde6a39010c933b2bd09ca0d6f8066f459b8d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShallowDeepCopy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShallowDeepCopy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -20,7 +20,7 @@ namespace PracticeList
             //myclass.Id = 10; vere bilmersen çünkü init ile tanımlandı
 
             //Type type = typeof(Myclass);
-            //Type type1= typeof(MyEnum);
+            //Type type1 = typeof(MyEnum);
             //Console.WriteLine(type1.IsEnum);
 
 
