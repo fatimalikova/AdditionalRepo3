@@ -25,19 +25,19 @@
             method += (s) => s < 5;
             method(2);
 
-            ResultMethod<int> resultMethod = delegate (int number)
-            {
-                return number * number;
-            };
-            ResultMethod<string> resultMethod1 = (s) => s + " Hello";
-            Console.WriteLine(resultMethod1("Test"));
-            Console.WriteLine(resultMethod(3));
+            //ResultMethod<int> resultMethod = delegate (int number)
+            //{
+            //    return number * number;
+            //};
+            //ResultMethod<string> resultMethod1 = (s) => s + " Hello";
+            //Console.WriteLine(resultMethod1("Test"));
+            //Console.WriteLine(resultMethod(3));
 
-            GenericMethod<int, string> genericMethod = (s) => s.ToString() + " Generic Method";
-            Console.WriteLine(genericMethod(5));
-            Console.WriteLine(genericMethod(10));
-            Console.WriteLine(genericMethod(20));
-            Console.WriteLine(genericMethod(30));
+            //GenericMethod<int, string> genericMethod = (s) => s.ToString() + " Generic Method";
+            //Console.WriteLine(genericMethod(5));
+            //Console.WriteLine(genericMethod(10));
+            //Console.WriteLine(genericMethod(20));
+            //Console.WriteLine(genericMethod(30));
 
              
 
@@ -94,14 +94,14 @@
         }
 
         ////////////////////////////////////////////////////
-        public static bool IsEven(int number)
-        {
-            return number % 2 == 0;
-        }
-        public static bool IsOdd(int number)
-        {
-            return number % 2 != 0;
-        }
+        //public static bool IsEven(int number)
+        //{
+        //    return number % 2 == 0;
+        //}
+        //public static bool IsOdd(int number)
+        //{
+        //    return number % 2 != 0;
+        //}
         ///////////////////////////////////////////////////
     }
 }
