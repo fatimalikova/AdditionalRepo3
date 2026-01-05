@@ -12,8 +12,8 @@ namespace PracticeList
         static void Main(string[] args)
         {
             IHumanResources humanResources = new PersonService();
-            humanResources.Add(new Person { Id = 1, Name = "Leila" });
-            humanResources.GetAll();
+            //humanResources.Add(new Person { Id = 1, Name = "Leila" });
+            //humanResources.GetAll();
 
             //Myclass myclass = new Myclass() { Id = 5 };
             //Console.WriteLine(myclass.Id);
@@ -55,8 +55,8 @@ namespace PracticeList
             //Console.WriteLine(instance.Id);
 
 
-            Fatima fatima = new Fatima(1, "Fatimaaaaaaaaaa", "Mammadova");
-            Validate(fatima);
+            Fatima leila = new Fatima(1, "Fatimaaaaaaaaaa", "Mammadova");
+            Validate(leila);
             Fatima fatima1 = new Fatima(2, "Leila", "Aliyeva");
             Validate(fatima1);
 
