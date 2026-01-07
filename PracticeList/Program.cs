@@ -60,11 +60,11 @@ namespace PracticeList
             Fatima fatima1 = new Fatima(2, "Leila", "Aliyeva");
             Validate(fatima1);
 
-            //Myclass myclass = new Myclass();
-            //myclass.Id = Console.ReadLine() != null ? Convert.ToInt32(Console.ReadLine()) : 0;
-            //myclass.Name = (Name)Enum.Parse(typeof(Name), Console.ReadLine());
-            //myclass.Info(myclass.Id, myclass.Name);
-            //Console.ReadLine();
+            Myclass myclass = new Myclass();
+            myclass.Id = Console.ReadLine() != null ? Convert.ToInt32(Console.ReadLine()) : 0;
+            myclass.Name = (Name)Enum.Parse(typeof(Name), Console.ReadLine());
+            myclass.Info(myclass.Id, myclass.Name);
+            Console.ReadLine();
 
         }
         public static void Validate(object obj)
