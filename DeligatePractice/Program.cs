@@ -14,16 +14,16 @@
 
             NumberMethod method = IsEven;
             method += IsOdd;
-            //method(1);
-            //method.Invoke(2);
+            method(1);
+            method.Invoke(2);
 
-            //method += delegate (int number)
-            //{
-            //    return number > 5;
-            //};
+            method += delegate (int number)
+            {
+                return number > 5;
+            };
 
-            //method += (s) => s < 5;
-            //method(2);
+            method += (s) => s < 5;
+            method(2);
 
             //ResultMethod<int> resultMethod = delegate (int number)
             //{
@@ -39,7 +39,7 @@
             //Console.WriteLine(genericMethod(20));
             //Console.WriteLine(genericMethod(30));
 
-             
+
 
         }
 
