@@ -14,7 +14,7 @@
 
             NumberMethod method = IsEven;
             method += IsOdd;
-            method(1);
+            //method(1);
             method.Invoke(2);
 
             method += delegate (int number)

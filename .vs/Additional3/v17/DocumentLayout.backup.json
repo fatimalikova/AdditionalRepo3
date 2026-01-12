@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1B780EE-1870-4F39-8F92-92100FD7FB23}|DeligatePractice\\DelegatePractice.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\deligatepractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1B780EE-1870-4F39-8F92-92100FD7FB23}|DeligatePractice\\DelegatePractice.csproj|solutionrelative:deligatepractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25075688-6138-4F2A-AC2E-968EAC829B5C}|PracticeList\\PracticeList.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\practicelist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25075688-6138-4F2A-AC2E-968EAC829B5C}|PracticeList\\PracticeList.csproj|solutionrelative:practicelist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1B780EE-1870-4F39-8F92-92100FD7FB23}|DeligatePractice\\DelegatePractice.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\deligatepractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B780EE-1870-4F39-8F92-92100FD7FB23}|DeligatePractice\\DelegatePractice.csproj|solutionrelative:deligatepractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4870CAA1-07AF-4C6F-8239-D1D991C0B035}|SortedList\\SortedList.csproj|c:\\users\\fmeli\\onedrive\\desktop\\code academy\\additional3\\additional3\\sortedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -82,15 +82,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\PracticeList\\Program.cs",
               "RelativeDocumentMoniker": "PracticeList\\Program.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\PracticeList\\Program.cs",
-              "RelativeToolTip": "PracticeList\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwEEAAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\PracticeList\\Program.cs*",
+              "RelativeToolTip": "PracticeList\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T17:57:13.019Z"
+              "WhenOpened": "2025-12-28T17:57:13.019Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -118,16 +119,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\DeligatePractice\\Program.cs",
               "RelativeDocumentMoniker": "DeligatePractice\\Program.cs",
               "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Code Academy\\Additional3\\Additional3\\DeligatePractice\\Program.cs",
               "RelativeToolTip": "DeligatePractice\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T16:17:14.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T16:17:14.982Z"
             },
             {
               "$type": "Document",
