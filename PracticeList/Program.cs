@@ -13,6 +13,8 @@ namespace PracticeList
         {
             IHumanResources humanResources = new PersonService();
             humanResources.Add(new Person { Id = 1, Name = "Leila" });
+            humanResources.Add(new Person { Id = 2, Name = "Fatima" });
+            humanResources.Add(new Person { Id = 3, Name = "Aysel" });
             humanResources.GetAll();
 
             //Myclass myclass = new Myclass() { Id = 5 };
