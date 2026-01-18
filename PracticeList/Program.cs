@@ -154,7 +154,8 @@ namespace PracticeList
     {
         First,
         Second,
-        Third
+        Third,
+        Fourth
     }
     enum Name
     {
