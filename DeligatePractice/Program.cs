@@ -8,6 +8,7 @@
         public delegate U GenericMethod<in T,out U>(T parameter);
         static void Main(string[] args)
         {
+            //tekrar edilen kodlari azaltmak icin deligate kullanilir
             Sum((s) => s % 2 == 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
             Sum(delegate (int s)
             { return s % 2 != 0; }, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
