@@ -6,6 +6,7 @@
         public delegate T ResultMethod<T>(T param);
         public delegate U GenericMethod<in T,out U>(T parameter);
         //GenericMethod<int, string> genericMethod = (s) => s.ToString() + " Generic Method";
+        //in T - input parameter, out U - output parameter
         static void Main(string[] args)
         {
             Sum((s) => s % 2 == 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
