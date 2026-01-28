@@ -16,7 +16,7 @@ namespace PracticeList
             humanResources.Add(new Person { Id = 2, Name = "Fatima" });
             humanResources.Add(new Person { Id = 3, Name = "Aysel" });
             humanResources.Add(new Person { Id = 4, Name = "Jala" });
-            
+            humanResources.Add(new Person { Id = 5, Name = "Nigar" });
             humanResources.Remove(2);
             humanResources.GetAll();
 
