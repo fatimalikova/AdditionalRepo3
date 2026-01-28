@@ -18,6 +18,7 @@ namespace PracticeList
             humanResources.Add(new Person { Id = 4, Name = "Jala" });
             humanResources.Add(new Person { Id = 5, Name = "Nigar" });
             humanResources.Remove(2);
+            humanResources.Remove(3);
             humanResources.GetAll();
 
             //Myclass myclass = new Myclass() { Id = 5 };
